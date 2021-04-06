@@ -1,0 +1,289 @@
+body{
+	font-family: 'Roboto', sans-serif;
+	font-size: 15px;
+	color: #333333;
+	line-height: 1.6;
+	margin: 0;
+	box-sizing: border-box;
+}
+.container{
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.header{
+	background-color: #FFFFFF;
+	height: 100px;
+	width: 100%;
+	z-index: 1000;
+	left: 0;
+	top: 0;
+	right: 0;
+	padding-top: 20px;
+}
+
+.nav_link{
+	text-decoration: none;
+	color: #3D3D3D;
+	display: inline-block;
+	vertical-align: top;
+	margin: 0 30px;
+	transition: color 0.7s linear;
+	position: relative;
+}
+.nav_link:after{
+	content: "";
+	width: 100%;
+	height: 3px;
+	background-color: #EFAE23;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	z-index: 1;
+	opacity: 0;
+	transition: opacity 0.5s linear;
+}
+.nav_link:hover:after{
+	opacity: 1;
+
+}
+.header_inner{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 25px;
+}
+
+.intro{
+	height: 601px;
+	display: flex;
+	text-align: center;
+	flex-direction: row;
+	justify-content: center;
+	width: 100%;
+
+	background-image: url(img/back_phone.png);
+	background-size: cover;
+}
+.label{
+	font-family: 'Miss Fajardose', cursive;
+	max-width: 150px;
+	margin-top: 50px;
+	font-size: 35px;
+	margin-left: 1050px;
+}
+
+/* Search */
+.sub_text{
+	color: #FFFFFF;
+	font-size: 45px;
+}
+
+.search{
+	max-width: 930px;
+	height: 85px;
+	background-color: #B19B76;
+	opacity: 0.8;
+	margin: 0 auto;
+	display: flex;
+}
+.main-search{
+	text-align: center;
+}
+
+.city{
+	height: 30px;
+	max-width: 220px;
+	margin-top: 22px;
+	margin-left: 15px;
+}
+
+.calendar_search{
+	height: 30px;
+	max-width: 200px;
+	margin-left: 15px;
+	margin-top: 22px;
+}
+
+/* benefits */
+
+.benefits{
+	height: 160px;
+	background-color: #fff;
+}
+
+.benefits_block{
+	display: flex;
+}
+.first:after{
+	content: "";
+	width: 100%;
+	height: 3px;
+	background-color: #E5E5E5;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	z-index: 1;
+	opacity: 0;
+	transition: opacity 0.5s linear;
+}
+.first{
+	color: #909091;
+	display: flex;
+	margin-top: 30px;
+	align-items: center;
+	font-size: 20px;
+	justify-content: space-between;
+	margin-right: 30px;
+}
+.first_img{
+	width: 22px;
+	height: 22px;
+	margin-right: 10px;
+}
+.last_child{
+	color: #909091;
+	margin-left: 0px;
+	display: flex;
+	margin-top: 30px;
+	align-items: center;
+	font-size: 20px;
+}
+.benefits_block: last-child{
+	margin-right: 0;
+}
+.stocks{
+	background-image: url(img/back_phone2.png);
+	height: 930px;
+	width: 100%;
+}
+.up-sec{
+	display: flex;
+	justify-content: space-between;
+}
+.pic_stocks{
+	height: 8px;
+	width: 400px;
+}
+.first_stocks{
+	padding-top: 70px;
+	display: block;
+	margin-left: 0;
+}
+.stocks_text{
+	color: #58585A;
+	font-size: 27px;
+	display: flex;
+	padding-left: 62px;
+}
+.first-sec{
+	display: flex;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.up-book{
+	display: flex;
+}
+.second-sec{
+	margin-top: 70px;
+	margin-left: 374px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.first-sec{
+	margin-top: 70px;
+}
+.start-from{
+	position: absolute;
+	top: 1370px;
+	right: 244px;
+}
+.dollar203{
+	position: absolute;
+	top: 1365px;
+	right: 187px;
+}
+.start-from2{
+	position: absolute;
+	top: 1370px;
+	right: 453px;
+}
+.dollar182{
+	position: absolute;
+	top: 1365px;
+	right: 396px;
+}
+.hot1{
+	position: absolute;
+}
+.hot2{
+	position: absolute;
+	right: 210px;
+}
+.hot-deals1{
+	position: absolute;
+	top: 1157px;
+	right: 475px;
+}
+.Burn{
+	position: absolute;
+	top: 1150px;
+	right: 450px;
+}
+.hot-deals2{
+	position: absolute;
+	top: 1157px;
+	right: 260px;
+}
+.Burn2{
+	position: absolute;
+	top: 1150px;
+	right: 235px;
+}
+.book1{
+	outline: none;
+
+	box-shadow: 0 2px 7px #DB7F1E;
+	transition: all 0.5s;
+}
+.book1:hover{
+	color: #fff;
+	text-decoration: none;
+	background: linear-gradient(to top right, #ffcc00 0%, #ff99cc 100%);
+	box-shadow: 0 2px 10px rgba(213, 80, 208, 0.9);
+}
+.book2{
+	outline: none;
+
+	box-shadow: 0 2px 7px #DB7F1E;
+	transition: all 0.5s;
+}
+.book2:hover{
+	color: #fff;
+	text-decoration: none;
+	background: linear-gradient(to top right, #ffcc00 0%, #ff99cc 100%);
+	box-shadow: 0 2px 10px rgba(213, 80, 208, 0.9);
+}
+.book3{
+	outline: none;
+
+	box-shadow: 0 2px 7px #DB7F1E;
+	transition: all 0.5s;
+}
+.book3:hover{
+	color: #fff;
+	text-decoration: none;
+	background: linear-gradient(to top right, #ffcc00 0%, #ff99cc 100%);
+	box-shadow: 0 2px 10px rgba(213, 80, 208, 0.9);
+}
+.book4{
+	outline: none;
+
+	box-shadow: 0 2px 7px #DB7F1E;
+	transition: all 0.5s;
+}
+.book4:hover{
+	color: #fff;
+	text-decoration: none;
+	background: linear-gradient(to top right, #ffcc00 0%, #ff99cc 100%);
+	box-shadow: 0 2px 10px rgba(213, 80, 208, 0.9);
+}
